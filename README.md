@@ -29,11 +29,15 @@ New orders should only be displayed on the page IF the POST request is successfu
 
 ### Iteration 4
 
-Write Cypress tests for the following user flows (don't forget to stub your network requests):
+Identify and test 3 user flows.
+Leave your identified flows as comments above the test code.
+Be sure to consider the goal of the user and the content they expect to see when thinking about the assertions you need to make.
+You are expected to intercept and stub any existing network requests
 
-When a user visits the page, they can view the page title and the existing orders.
-When a user visits the page, they can view the Form with the proper inputs.
-When a user fills out the form, the information is reflected in the input field's value.
+Here are some things to consider
+- What should the user see upon page load?
+- What goal of the user on this page? 
+- How does the user interact with this page?
 
 ## Extensions (only to be attempted if all prior iterations are complete)
 
