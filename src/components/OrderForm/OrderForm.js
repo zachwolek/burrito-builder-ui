@@ -1,16 +1,15 @@
 import { useState } from "react";
 
-function OrderForm() {
-  const [props, setProps] = useState(props);
+function OrderForm(props) {
   const [name, setName] = useState("");
   const [ingredients, setIngredients] = useState([]);
 
   function handleSubmit(e) {
     e.preventDefault();
-    this.clearInputs();
+    clearInputs();
   }
 
-  const clearInputs = () => {
+  function clearInputs() {
     setName("");
     setIngredients([]);
   };
