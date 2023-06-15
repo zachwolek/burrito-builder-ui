@@ -25,7 +25,7 @@ Connect the front end to the backend so that when the app loads, all existing or
 
 Add functionality to enable form submission only when at least one ingredient and a name have been added to the order. If either of these two requirements is missing, the form should not be submittable. Upon successful submission, a POST request should be made to the server.
 
-New orders should only be displayed on the page IF the POST request is successful. On refresh, the new order should persist on the page. **(You shouldn't _need_ to refresh the page to see the new order, though.)**
+New orders should only be displayed on the page IF the POST request is successful. The user should see the new order displayed without the page refreshing. The new order should persist on the DOM after refreshing as well.
 
 ### Iteration 4
 
