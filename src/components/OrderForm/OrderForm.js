@@ -33,7 +33,7 @@ function OrderForm(props) {
       <button
         key={ingredient}
         name={ingredient}
-        onClick={(e) => handleIngredientChange(e)}
+        // onClick={(e) => }
       >
         {ingredient}
       </button>
@@ -47,7 +47,7 @@ function OrderForm(props) {
         placeholder="Name"
         name="name"
         value={name}
-        onChange={(e) => handleNameChange(e)}
+        // onChange={(e) => }
       />
 
       {ingredientButtons}
