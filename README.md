@@ -15,7 +15,7 @@ Be sure to setup the [backend repo for Burrito Builder](https://github.com/turin
 
 ### Iteration 1
 
-Right now the app has several bugs in it. Run the dev server and fix whatever bugs are causing the app to crash.
+Right now the app won't load because its unfinished/buggy. Run the dev server and fix whatever bugs/finish whatever functionality is causing the app to crash. 
 
 ### Iteration 2
 
@@ -29,16 +29,12 @@ New orders should only be displayed on the page IF the POST request is successfu
 
 ### Iteration 4
 
-Identify and test 3 user flows.
-***Leave your identified flows as comments above the test code.***
-Be sure to consider the goal of the user and the content they expect to see when thinking about the assertions you need to make.
-You are expected to intercept and stub any existing network requests
+Cypress testing: Be sure to stub all network requests:  
 
-Here are some things to consider
+- Write a test covering what should be displayed when the user first visits the page.
+- Write a test to check the user flow of adding a new order to the DOM.
+- Write a test to check that orders cannot be submitted without a name and at least one ingredient.
 
-- What should the user see upon page load?
-- What goal of the user on this page?
-- How does the user interact with this page?
 
 ## Extensions (only to be attempted if all prior iterations are complete)
 
